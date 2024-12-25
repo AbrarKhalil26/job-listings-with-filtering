@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/.github.io/job-listings-with-filtering/static/css/main.32aa0211.css",
-    "main.js": "/.github.io/job-listings-with-filtering/static/js/main.45edcb3d.js",
-    "index.html": "/.github.io/job-listings-with-filtering/index.html",
-    "main.32aa0211.css.map": "/.github.io/job-listings-with-filtering/static/css/main.32aa0211.css.map",
-    "main.45edcb3d.js.map": "/.github.io/job-listings-with-filtering/static/js/main.45edcb3d.js.map"
+    "main.css": "/job-listings-with-filtering/static/css/main.32aa0211.css",
+    "main.js": "/job-listings-with-filtering/static/js/main.45edcb3d.js",
+    "index.html": "/job-listings-with-filtering/index.html",
+    "main.32aa0211.css.map": "/job-listings-with-filtering/static/css/main.32aa0211.css.map",
+    "main.45edcb3d.js.map": "/job-listings-with-filtering/static/js/main.45edcb3d.js.map"
   },
   "entrypoints": [
     "static/css/main.32aa0211.css",
