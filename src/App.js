@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className="@container">
-      <div className="min-h-screen bg-background grid">
+      <div className="min-h-screen bg-background flex flex-col">
         <div className="bg-primary h-28">
           <picture>
             <source media="(min-width: 700px)" srcSet="/images/bg-header-desktop.svg" />
@@ -51,7 +51,7 @@ function App() {
             setListSearch={setListSearch}
           />
         </div>
-        <div className="font-tajawal mx-auto">Via: <a href="https://abrarkhalil26.github.io/My-Portfolio/" className="text-primary">Abrar</a></div>
+        <div className="font-tajawal mx-auto mt-auto mb-2">Via: <a href="https://abrarkhalil26.github.io/My-Portfolio/" className="text-primary">Abrar</a></div>
       </div>
     </div>
   );
