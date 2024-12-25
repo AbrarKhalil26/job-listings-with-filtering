@@ -10,7 +10,6 @@ Link: https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstI
 
 #### Tools: I used React Hook and Tailwind Css for responsive device's screen size.
 
-#### Design & Live
 Live: https://AbrarKhalil26.github.io/job-listings-with-filtering
 
 Design: 
