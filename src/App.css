@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+LA+Guides&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+:root {
+  --primary: hsl(180, 29%, 50%);
+  --background: hsl(180, 52%, 96%);
+  --filter-tablets: hsl(180, 31%, 95%);
+  --dark-grayish-cyan: hsl(180, 8%, 52%);
+  --very-dark-grayish-cyan: hsl(180, 14%, 20%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.font-tajawal{
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 700;
+  font-style: italic;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tags {
+  @apply text-primary bg-background text-xs font-semibold px-3 py-2 rounded-md cursor-pointer duration-300;
+}
+.tags:hover {
+  @apply bg-primary text-white;
+}
+.tags-noHover:hover {
+  @apply bg-background text-primary;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.rounded-right-none{
+  @apply rounded-r-none;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.new_feature {
+  @apply text-white text-[10px] uppercase font-semibold px-2 py-1 rounded-full;
 }
